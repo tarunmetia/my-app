@@ -28,7 +28,7 @@ useEffect (() => {
                         <div className='card-Item'>
                             <h2>{productsItem.title}</h2>
                             <div className='image-wrapper'>
-                                <img src={productsItem.thumbnail} alt=""/>
+                                <img src={productsItem.thumbnail} alt="test"/>
                             </div>
                         </div>
                     )
