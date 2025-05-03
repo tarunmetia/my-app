@@ -1,0 +1,19 @@
+.cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    margin: 7px 0;
+}
+
+.card-Item {
+    background-color: #CCCCFF;
+    flex: 0 1 calc(25% - 7.5px);
+}
+.image-wrapper {
+    width: 100%;
+    height: auto;
+}
+
+.image-wrapper img {
+    object-fit: cover;
+}
