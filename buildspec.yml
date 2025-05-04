@@ -12,12 +12,8 @@ phases:
     commands:
       - echo Building the React app...
       - npm run build
-  postbuild:
-    commands:
-      - cd build
 
 artifacts:
   files:
     - '**/*'
-  base-directory: build
   discard-paths: no
